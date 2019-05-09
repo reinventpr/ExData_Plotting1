@@ -27,3 +27,7 @@ plot(finalData$SetTime, finalData$Sub_metering_1, type="l", col=columnlines[1], 
 lines(finalData$SetTime, finalData$Sub_metering_2, col=columnlines[2])
 lines(finalData$SetTime, finalData$Sub_metering_3, col=columnlines[3])
 legend("topright", legend=labels, col=columnlines, lty="solid")
+
+##
+##  The Plot #3 is generated on the device, export it to the png file, 
+##  and adjust the width/heigth according to the requirement 480x480
