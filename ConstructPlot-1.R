@@ -23,3 +23,6 @@ finalData <- cbind(SetTime, finalData)
 ## Generating Plot 1
 hist(finalData$Global_active_power, col="red", main="Global Active Power", xlab="Global Active Power (kilowatts)")
 
+##
+##  The Plot #1 is generated on the device, export it to the png file, 
+##  and adjust the width/heigth according to the requirement 480x480
