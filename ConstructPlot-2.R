@@ -22,3 +22,8 @@ finalData <- cbind(SetTime, finalData)
 ##
 ## Generating Plot 2
 plot(finalData$SetTime, finalData$Global_active_power, type="l", col="black", xlab="", ylab="Global Active Power (kilowatts)")
+
+
+##
+##  The Plot #2 is generated on the device, export it to the png file, 
+##  and adjust the width/heigth according to the requirement 480x480
