@@ -30,3 +30,7 @@ lines(finalData$SetTime, finalData$Sub_metering_2, type="l", col="red")
 lines(finalData$SetTime, finalData$Sub_metering_3, type="l", col="blue")
 legend("topright", bty="n", legend=labels, lty=1, col=columnlines)
 plot(finalData$SetTime, finalData$Global_reactive_power, type="l", col="blue", xlab="datetime", ylab="Global_reactive_power")
+
+##
+##  The Plot #4 is generated on the device, export it to the png file, 
+##  and adjust the width/heigth according to the requirement 480x480
